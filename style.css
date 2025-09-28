@@ -1,0 +1,18 @@
+.div-child {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+
+.div-child:hover {
+  /* Your hover styles here */
+  background-color: lightblue; /* example */
+  cursor: pointer; /* example */
+  transform: scale(1.2);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
